@@ -4,16 +4,45 @@
              <link rel="icon" type="image/png" href="image/0.png">
       <title> Gebeya</title>
       <style>
-     .download {
-         align:center;
-
-      }
+     * {
+    text-align: center;
+}
+.heading {
+    font-family: Arial;
+    margin-top:40vh;
+}
+.URL-input, .convert-button {
+    font-size:1.3em;
+    padding:5px 10px;
+}
+.URL-input {
+    border-radius:4px 0px 0px 4px;
+    width:30em;
+    text-align: left;
+    border:2px solid #EEEEEE;
+    background: #EEEEEE;
+    outline:none;
+}
+.URL-input:focus {
+    border:2px solid #0485ff;
+}
+.convert-button {
+    border-radius:0px 4px 4px 0px;
+    border:2px solid #0485ff;
+    background: #0485ff;
+    color:white;
+}
       </style>
     </head>
-    <h1>Gebeya youtube downloader</h1>
+    <h1></h1>
     <h4>Melkam Beyene</h4>
-    <div class="download">
-        <input type="text" id="url" name="" value="">
-        <button type="submit">Download</button>
-    </div>
+
+<body>
+    <h1 class="heading">Gebeya youtube downloader By Melkam Beyene</h1>
+    <input class="URL-input" placeholder="Video URL e.g. https://www.youtube.com/watch?v=MtN1YnoL46Q">
+    <button class="convert-button">Convert</button>
+    <script src='js/main.js'></script>
+
+</body>
+</html>
 </html>
